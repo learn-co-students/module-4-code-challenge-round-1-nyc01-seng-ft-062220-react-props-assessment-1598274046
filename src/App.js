@@ -6,7 +6,7 @@ import NotesContainer from "./Components/NotesContainer";
 class App extends Component {
   render() {
     return <div>
-        <Header header="my prop"/>
+        <Header header="Notes"/>
         <NotesContainer />
       </div>
   }
