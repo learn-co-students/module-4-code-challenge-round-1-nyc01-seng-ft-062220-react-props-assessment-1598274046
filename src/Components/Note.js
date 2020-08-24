@@ -2,8 +2,7 @@ import React from 'react'
 
 
 function Note(props) {
-
-    console.log(props) 
+    console.log("Notes props:", props)
     return <li>{props.content}</li>
 }
 

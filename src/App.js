@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from './Components/Header'
+import NotesContainer from "./Components/NotesContainer";
+
 
 class App extends Component {
   render() {
-  
-    return <Header header={this.note_list}/>
+    return (
+    <>
+        <Header header={"This is a string"}/>
+        <NotesContainer/>
+    </>
+      )
   }
 }
 
