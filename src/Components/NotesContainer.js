@@ -3,11 +3,18 @@ import React from 'react'
 class NotesContainer extends React.Component {
 
     apiResponse = () => {
-        return ["First Note", "Second Note", "Third Note", "Fourth Note"]
+        return ["First Note", "Second Note", "Third Note", "Fourth Note"].map(function(note){
+        
+        })
     }
 
-    return(
-        <ul></ul >
-    )
 
+render () {
+    
+    return (
+         <ul></ul> 
+         )
+    }
 }
+
+export default NotesContainer

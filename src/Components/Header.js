@@ -1,8 +1,18 @@
 import React from "react";
+import NotesContainer from "./NotesContainer";
 
 class Header extends React.Component {
+
+  notes = () => {
+    return this.props.name.map(function(notes){
+      return <NotesContainer notes={notes} />
+    })
+  }
+
+
   render() {
-    return <h1>{/* Insert string here */}</h1>;
+    // console.log(this.props.header)
+    return <h1>{this.props.header}</h1>;
   }
 }
 
