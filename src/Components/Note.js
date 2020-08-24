@@ -1,6 +1,7 @@
 import React from 'react'
+import NotesContainer from './Components/NotesContainer'
 
-
-function Note() {
-    return <li>{props.content}</li>
+export function Note() {
+    return <li>{props.apiResponse}</li>
 }
+
