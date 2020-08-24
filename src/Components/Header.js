@@ -1,13 +1,8 @@
 import React from "react";
-import NotesContainer from './Components/NotesContainer'
-
-const headerTitle = 
-
 
 class Header extends React.Component {
   render() {
-    return 
-    { this.props.blah }
+    return <h1>{"I feel like I'm back in 'Nam in 57!"}</h1>;
   }
 }
 

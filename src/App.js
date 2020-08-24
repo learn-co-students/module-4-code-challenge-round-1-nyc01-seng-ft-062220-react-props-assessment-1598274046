@@ -6,11 +6,12 @@ import NotesContainer from './Components/NotesContainer'
 class App extends Component {
   render() {
     return (
-    <div>
-      <Header blah="I feel like I'm back in 'Nam in 59" />
-      <NotesContainer />
-    </div>
-    )}
+    <>
+    <Header header={this.props}/>
+    <NotesContainer />
+    </>
+    )
+  }
 }
 
 export default App;
