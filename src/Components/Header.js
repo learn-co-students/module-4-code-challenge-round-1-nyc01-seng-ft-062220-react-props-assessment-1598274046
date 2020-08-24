@@ -4,8 +4,9 @@ const header = "Hello React!"
 
 class Header extends React.Component {
   render() {
-    return <h1>{header}</h1>;
+    return <h1>{this.props.header}</h1>;
   }
 }
+
 
 export default Header;
