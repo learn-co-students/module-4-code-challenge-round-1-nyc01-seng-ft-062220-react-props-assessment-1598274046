@@ -11,7 +11,7 @@ function Note(props) {
         <li>{props.note[3]}</li>
         </div>
 
-        //Yeeeaaah.... I know this is wrong :/ I'm having trouble getting interation to work in React.
+        //Yeeeaaah.... I know this is wrong :/ I'm having trouble getting iteration to work in React.
     )
 }
 
