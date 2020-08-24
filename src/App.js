@@ -7,9 +7,12 @@ import NotesContainer from './Components/NotesContainer'
 
 class App extends Component {
   render() {
-
-    return <Header header="Brandon" />
-   
+    return (
+    <>
+       <Header header="Brandon" />
+      <NotesContainer />
+    </>
+   )
   }
 }
 
