@@ -8,11 +8,15 @@ class NotesContainer extends Component {
     }
 
     render() {
+        const noteArray = this.apiResponse().map((noteObject) => <Note content={noteObject}/>)
         return(
-        <ul>{}</ul>
+            <ul>{
+                noteArray
+            }
+            </ul>
         )
     }
-
+    
 }
 
 export default NotesContainer
