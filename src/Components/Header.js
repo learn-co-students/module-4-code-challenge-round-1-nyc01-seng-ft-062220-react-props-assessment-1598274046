@@ -1,8 +1,10 @@
 import React from "react";
 
+const header = "Hello React!"
+
 class Header extends React.Component {
   render() {
-    return <h1>{/* Insert string here */}</h1>;
+    return <h1>{header}</h1>;
   }
 }
 
