@@ -6,10 +6,10 @@ import NotesContainer from './Components/NotesContainer.js'
 class App extends Component {
   render() {
     return (
-           <div>
-            <Header />
+          <>
+            <Header header="Add a header"/>
             <NotesContainer />
-            </div>
+          </>
             )
   }
 }

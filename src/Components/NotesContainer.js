@@ -6,12 +6,11 @@ class NotesContainer extends React.Component {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
     
-    noteList = () => {
-       return this.apiReponse().map(Note => <li>Note</li>)
-    }
-
     render() {
-        return(<ul>{this.noteList()}</ul>)
+        let noteList = this.apiReponse().map(noteObj => <Note content={noteObj}/>) //grabs this from Note: <li>{props.content}</li>
+        return(
+            <ul>{noteList}</ul>
+        )
     }
 
 }
