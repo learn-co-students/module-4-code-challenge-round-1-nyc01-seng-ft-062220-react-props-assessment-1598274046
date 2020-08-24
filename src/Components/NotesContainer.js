@@ -7,10 +7,10 @@ class NotesContainer extends React.Component {
         return ["First Note", "Second Note", "Third Note", "Fourth Note"]
     }
     render() {
+        let notesArray = this.apiResponse().map((noteObj, index) => <Note key={index} content={noteObj} />)
+
         return (
-            <ul>
-                <Note note = {this.apiResponse()} />
-            </ul>
+            <ul>{notesArray}</ul>
         )
 
     }

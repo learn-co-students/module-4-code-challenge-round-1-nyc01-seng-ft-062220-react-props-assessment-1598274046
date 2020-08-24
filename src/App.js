@@ -6,10 +6,10 @@ import NotesContainer from "./Components/NotesContainer";
 class App extends Component {
   render() {
     return (
-        <div>
-        <Header />
-        <NotesContainer />
-        </div>
+        <>
+            <Header header="This is a mod 4 code challenge!" />
+            <NotesContainer />
+        </>
     )
   }
 }
